@@ -5,20 +5,20 @@ import useWindowSize from "../useWindowSize";
 
 const menus = [
   { icon: "fa fa-home", dkMenuName: "Home", name: "Home", id: "home" },
-  { icon: "fa fa-user", dkMenuName: "About", name: "About me", id: "about" },
+  //{ icon: "fa fa-user", dkMenuName: "Sobre Min", name: "Sobre Min", id: "about" },
   {
     icon: "fa fa-briefcase",
-    dkMenuName: "Portfolio",
-    name: "my Portfolio",
+    dkMenuName: "Lista Atleta",
+    name: "Lista Atleta",
     id: "work",
   },
   {
     icon: "fa fa-envelope-open",
-    dkMenuName: "Contact",
-    name: "get in touch",
+    dkMenuName: "Inscrever",
+    name: "Inscrever",
     id: "contact",
   },
-  { icon: "fa fa-comments", dkMenuName: "Blog", name: "my Blog", id: "blog" },
+  { icon: "fa fa-comments", dkMenuName: "Blog", name: "Blog", id: "blog" },
 ];
 
 const Header = ({ light }) => {

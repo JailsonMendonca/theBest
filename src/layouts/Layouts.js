@@ -30,7 +30,13 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
           href={`css/skins/${color}.css`}
           rel="stylesheet"
         />{" "}
-        <title>Istanbul - Personal Portfolio</title>
+        <link
+          rel="shortcut icon"
+          href="img/faviconTheBest.png"
+          type="img/png"
+        />
+        <title>TheBestOfCV</title>
+
       </Head>
       <div className="page animated" style={{ animationDuration: "500ms" }}>
         <Switcher />
@@ -52,6 +58,7 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
             {children}
           </main>
         )}
+          
       </div>{" "}
     </Fragment>
   );

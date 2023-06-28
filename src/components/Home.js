@@ -2,6 +2,7 @@ import { useContext } from "react";
 import Poster from "../../public/img/bg-video-poster.jpg";
 import NavContext from "../context/navContext";
 import AnimationText from "./AnimationText";
+import Footer from "../layouts/Footer"
 const Home = ({ leftImg, video, leftImgSrc }) => {
   const { nav, changeNav } = useContext(NavContext);
   return (
@@ -31,9 +32,9 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           <h3>Ola !</h3>
           <AnimationText />
           <p>
-            O futebol é a minha paixão desde que me lembro. É mais do que um 
-            esporte para mim, é uma forma de expressão. Entrar em campo e 
-            jogar futebol é onde me sinto mais vivo.
+            TheBestOfCV está em busca de talentos no esporte, especificamente na modalidade de futebol. 
+            Se você acredita que tem habilidades excepcionais no futebol e deseja ter a oportunidade 
+            de ser avaliado pela nossa equipe, preencha o formulário abaixo.
           </p>
           <div className="call-to-actions-home">
           <div className="text-left">
@@ -45,13 +46,13 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           </div>
             <div className="text-left">
               <a
-                href="#about"
-                onClick={() => changeNav("about")}
+                href="#contact"
+                onClick={() => changeNav("contact")}
                 className="btn link-portfolio-one"
               >
                 <span>
                   <i className="fa fa-user" />
-                  Saber mais
+                  Efetuar Inscrição
                 </span>
               </a>
               <a
@@ -61,11 +62,39 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
               >
                 <span>
                   <i className="fa fa-suitcase" />
-                  portfolio
+                  Ver Lista de Atletas
                 </span>
               </a>
+              </div>
+          <div className="row contact mt-5">
+          <div className="social mt-5">
+                <h6 className="font-weight-600 uppercase" style={{color: "#fff"}}>Redes Sociais:</h6>
+                <ul className="list-inline social social-intro text-center p-none">
+                  <li className="facebook">
+                    <a title="Facebook" href="#" id="cvi-iconRedes">
+                      <i className="fa fa-facebook"/>
+                    </a>
+                  </li>
+                  <li className="twitter">
+                    <a title="Twitter" href="#" id="cvi-iconRedes">
+                      <i className="fa fa-twitter" />
+                    </a>
+                  </li>
+                  <li className="youtube">
+                    <a title="Youtube" href="#" id="cvi-iconRedes">
+                      <i className="fa fa-linkedin" />
+                    </a>
+                  </li>
+                  <li className="dribbble">
+                    <a title="Dribbble" href="#" id="cvi-iconRedes">
+                      <i className="fa fa-instagram" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              
+              </div>
             </div>
-          </div>
         </div>
       </div>
       {/* Text Rotator Ends */}

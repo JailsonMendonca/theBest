@@ -50,85 +50,25 @@ const Contact = () => {
         {/* Main Heading Starts */}
         <div className="container page-title text-center">
           <h2 className="text-center">
-            get <span>in touch</span>
+          Se <span>INSCREVA</span>
+          </h2>
+          <h2 className="text-center">
+          The<span>best</span>of<span>CV</span>
           </h2>
           <span className="title-head-subtitle">
-            I’m always open to discussing product design work or partnerships.
+           promovendo os nossos talentos
           </span>
+          <p className="mt-2">
+            Se você tem interesse em nosso atleta, por favor preencha o formulário abaixo e retornaremos o 
+            mais breve possível. Obrigado!
+          </p>
         </div>
         {/* Main Heading Ends */}
         <div className="container">
           <div className="row contact">
-            {/* Contact Infos Starts */}
-            <div className="col-12 col-md-4 col-xl-4 leftside">
-              <ul className="custom-list">
-                <li>
-                  <h6 className="font-weight-600">
-                    {" "}
-                    <span className="contact-title">Phone</span>
-                    <i className="fa fa-whatsapp" />
-                    <span className="contact-content">+216 21 184 010</span>
-                  </h6>
-                </li>
-                <li>
-                  <h6 className="font-weight-600">
-                    {" "}
-                    <span className="contact-title">email</span>
-                    <i className="fa fa-envelope-o fs-14" />
-                    <span className="contact-content">info@daria.ua</span>
-                  </h6>
-                </li>
-                <li>
-                  <h6 className="font-weight-600">
-                    <span className="contact-title">instagram</span>
-                    <i className="fa fa-instagram" />
-                    <span className="contact-content">daria.198</span>
-                  </h6>
-                </li>
-                <li>
-                  <h6 className="font-weight-600">
-                    <span className="contact-title">Dribbble </span>
-                    <i className="fa fa-dribbble" />
-                    <span className="contact-content">daria.dribble</span>
-                  </h6>
-                </li>
-              </ul>
-              {/* Social Media Profiles Starts */}
-              <div className="social">
-                <h6 className="font-weight-600 uppercase">Social Profiles</h6>
-                <ul className="list-inline social social-intro text-center p-none">
-                  <li className="facebook">
-                    <a title="Facebook" href="#">
-                      <i className="fa fa-facebook" />
-                    </a>
-                  </li>
-                  <li className="twitter">
-                    <a title="Twitter" href="#">
-                      <i className="fa fa-twitter" />
-                    </a>
-                  </li>
-                  <li className="youtube">
-                    <a title="Youtube" href="#">
-                      <i className="fa fa-youtube" />
-                    </a>
-                  </li>
-                  <li className="dribbble">
-                    <a title="Dribbble" href="#">
-                      <i className="fa fa-dribbble" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              {/* Social Media Profiles Ends */}
-            </div>
             {/* Contact Infos Ends */}
             {/* Contact Form Starts */}
-            <div className="col-12 col-md-8 col-xl-8 rightside">
-              <p>
-                If you have any suggestion, project or even you want to say
-                Hello.. please fill out the form below and I will reply you
-                shortly.
-              </p>
+            <div className="col-12 col-md-12 col-xl-12 rightside">
               <form className="contactform" onSubmit={(e) => onSubmit(e)}>
                 <div className="row">
                   {/* Name Field Starts */}
@@ -142,7 +82,7 @@ const Contact = () => {
                       value={name}
                       type="text"
                       className="form-control"
-                      placeholder="YOUR NAME"
+                      placeholder="SEU NOME"
                       required=""
                     />
                   </div>
@@ -158,7 +98,7 @@ const Contact = () => {
                       onChange={(e) => onChange(e)}
                       value={email}
                       className="form-control"
-                      placeholder="YOUR EMAIL"
+                      placeholder="SEU EMAIL"
                       required=""
                     />
                   </div>
@@ -173,7 +113,7 @@ const Contact = () => {
                       onChange={(e) => onChange(e)}
                       value={message}
                       className="form-control"
-                      placeholder="YOUR MESSAGE"
+                      placeholder="SUA MENSAGEM"
                       required=""
                     />{" "}
                   </div>
@@ -187,7 +127,7 @@ const Contact = () => {
                     name="send"
                   >
                     <span>
-                      <i className="fa fa-send" /> Send Message
+                      <i className="fa fa-send" /> Enviar Mensagem
                     </span>
                   </button>
                 </div>

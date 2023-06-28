@@ -11,11 +11,11 @@ const PreLoader = () => {
   return (
     <div className={`preloader ${loaded ? "loaded" : ""}`}>
       <div className="preloader-container">
-        <h1>daria</h1>
+        <p style={{fontSize:"50px"}}>TheBestOfCV</p>
         <div id="progress-line-container">
           <div className="progress-line" />
         </div>
-        <h1>taylor</h1>
+        <h1>Melhores de Cabo Verde</h1>
       </div>
     </div>
   );

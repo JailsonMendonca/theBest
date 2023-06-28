@@ -2,11 +2,11 @@ import MovingComponent from "react-moving-text";
 const AnimationText = () => {
   return (
     <h1 className="ah-headline d-flex">
-      {`Eu sou`}{" "}
+      {`O que é`}{" "}
       <MovingComponent
         type="typewriter"
         dataText={[
-          "Lionel Messi",
+          "The Best Of CV",
         ]}
       />
     </h1>

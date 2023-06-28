@@ -4,6 +4,7 @@ import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
 import Home from "../src/components/Home";
 import Layouts from "../src/layouts/Layouts";
+
 const Work = dynamic(() => import("../src/components/Work"), {
   ssr: false,
 });

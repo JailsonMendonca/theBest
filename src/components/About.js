@@ -4,10 +4,11 @@ const About = () => {
   const { nav } = useContext(NavContext);
   return (
     <section id="about" className={`${nav === "about" ? "active" : ""}`}>
+      
       {/* Main Heading Starts */}
       <div className="container page-title text-center">
         <h2 className="text-center">
-          about <span>me</span>
+          SOBRE<span>MIN</span>
         </h2>
         <span className="title-head-subtitle">
           I design and code beautiful things, and I love what I do.
@@ -26,52 +27,52 @@ const About = () => {
               />
             </div>
             <p className="d-block d-md-none">
-              {`I'm`} a Freelance UI/UX Designer and Developer based in London,
-              England. I strives to build immersive and beautiful web
-              applications through carefully crafted code and user-centric
-              design.
+              O futebol é a minha paixão desde que me lembro. É mais do que um 
+              esporte para mim, é uma forma de expressão. Entrar em campo e 
+              jogar futebol é onde me sinto mais vivo.
             </p>
           </div>
           <div className="row col-xl-6 col-lg-6 col-md-12">
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-6">
               <ul className="list-1">
                 <li>
                   <h6>
-                    <span className="font-weight-600">First Name</span>
+                    <span className="font-weight-600">Primeiro Nome</span>
                     Daria
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Last Name</span>
+                    <span className="font-weight-600">Último Name</span>
                     Taylor
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Birthdate</span>21 june
-                    1990
+                    <span className="font-weight-600">Data Nascimento:</span>21 julho
+                    1999
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Nationality</span>
-                    English
+                    <span className="font-weight-600">Nacionalidade:</span>
+                    Caboverdiana
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Experience</span>7 years
+                    <span className="font-weight-600">Endereço:</span>Santa Cruz
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Address</span>
-                    Istanbul
+                    <span className="font-weight-600">Email:</span>
+                     taylor@gmail.com
                   </h6>
                 </li>
               </ul>
             </div>
+            {/*
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
               <ul className="list-2">
                 <li>
@@ -111,12 +112,12 @@ const About = () => {
                   </h6>
                 </li>
               </ul>
-            </div>
+            </div>*/}
             <div className="col-12 resume-btn-container">
               <a href="#" className="btn btn-resume">
                 <span>
                   <i className="fa fa-download" />
-                  download my cv
+                  Baixar Meu Formulário
                 </span>
               </a>
             </div>
@@ -136,7 +137,7 @@ const About = () => {
             {/* Experience Starts */}
             <div className="col-xl-6 col-lg-6 col-md-6">
               <h2 className="font-weight-600 uppercase title-section">
-                experience
+                Experiência
               </h2>
               <div className="resume-items">
                 {/* Item Starts */}
@@ -144,22 +145,13 @@ const About = () => {
                   <span className="bullet" />
                   <div className="card">
                     <div className="card-header">
-                      <span className="year">
-                        <i className="fa fa-calendar" />
-                        <i className="fa fa-caret-right" />
-                        2017 - 2019
-                      </span>
                       <span className="d-block font-weight-400 uppercase">
-                        web designer
-                        <span className="separator" />
-                        <span className="font-weight-700">Envato</span>
+                        Clube Atual:
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        Porto
                       </p>
                     </div>
                   </div>
@@ -170,22 +162,28 @@ const About = () => {
                   <span className="bullet" />
                   <div className="card">
                     <div className="card-header">
-                      <span className="year">
-                        <i className="fa fa-calendar" />
-                        <i className="fa fa-caret-right" />
-                        2014 - 2017
-                      </span>
                       <span className="d-block font-weight-400 uppercase">
-                        web developer
-                        <span className="separator" />
-                        <span className="font-weight-700">Twitter</span>
+                        Posição em campo:
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        Central
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="d-block font-weight-400 uppercase">
+                      Altura e Peso:
+                      </span>
+                    </div>
+                    <div className="card-body">
+                      <p>
+                        1,50m, 60kg
                       </p>
                     </div>
                   </div>
@@ -196,22 +194,13 @@ const About = () => {
                   <span className="bullet" />
                   <div className="card">
                     <div className="card-header">
-                      <span className="year">
-                        <i className="fa fa-calendar" />
-                        <i className="fa fa-caret-right" />
-                        2010 - 2014
-                      </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Consultant
-                        <span className="separator" />
-                        <span className="font-weight-700">Google</span>
+                       Tempo de experiência no futebol:
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        2 anos como central
                       </p>
                     </div>
                   </div>
@@ -223,7 +212,7 @@ const About = () => {
             {/* Education Starts */}
             <div className="col-xl-6 col-lg-6 col-md-6 skills-container">
               <h2 className="font-weight-600 uppercase title-section">
-                Education
+                Mais informações
               </h2>
               <div className="resume-items">
                 {/* Item Starts */}
@@ -231,24 +220,14 @@ const About = () => {
                   <span className="bullet" />
                   <div className="card">
                     <div className="card-header">
-                      <span className="year">
-                        <i className="fa fa-calendar" />
-                        <i className="fa fa-caret-right" />
-                        2007 - 2010
-                      </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Engineering Degree
-                        <span className="separator" />
-                        <span className="font-weight-700">
-                          Istanbul University
-                        </span>
+                        Informações Médicas
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        Exames cardíacos abrangentes, testes de resistência física, 
+                        exames de sangue e avaliações ortopédicas.
                       </p>
                     </div>
                   </div>
@@ -259,26 +238,10 @@ const About = () => {
                   <span className="bullet" />
                   <div className="card">
                     <div className="card-header">
-                      <span className="year">
-                        <i className="fa fa-calendar" />
-                        <i className="fa fa-caret-right" />
-                        2005 - 2007
+                      <span className="font-weight-700">
+                        Contato de Emergência:
                       </span>
-                      <span className="d-block font-weight-400 uppercase">
-                        Masters Degree
-                        <span className="separator" />
-                        <span className="font-weight-700">
-                          Paris University
-                        </span>
-                      </span>
-                    </div>
-                    <div className="card-body">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
-                      </p>
-                    </div>
+                    </div>   
                   </div>
                 </div>
                 {/* Item Ends */}
@@ -287,17 +250,10 @@ const About = () => {
                   <span className="bullet" />
                   <div className="card">
                     <div className="card-header">
-                      <span className="year">
-                        <i className="fa fa-calendar" />
-                        <i className="fa fa-caret-right" />
-                        2001 - 2005
-                      </span>
                       <span className="d-block font-weight-400 uppercase">
                         Bachelor Degree
                         <span className="separator" />
-                        <span className="font-weight-700">
-                          Moscow High School
-                        </span>
+                        
                       </span>
                     </div>
                     <div className="card-body">
@@ -470,6 +426,7 @@ const About = () => {
           {/* Skills Starts */}
         </div>
         {/* Resume Ends */}
+        
       </div>
     </section>
   );

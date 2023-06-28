@@ -35,3 +35,12 @@ span.sc-bdVaJa.bBePZj {
 .returnmessage {
   color: green;
 }
+#cvi-iconRedes{
+  color: #ffb400;
+  border: 1px solid #ffb400;
+  border: 50%;
+}
+
+#cvi-iconRedes i{
+  color: #ffb400;
+}
