@@ -317,7 +317,7 @@ const Contact = () => {
 
                   {/* Payment Methods radio*/}
                   <div className="col-12 mt-4">
-                    <h6 className="ml-3">Escolha o método de pagamento:</h6>
+                    <h6 className="ml-3">Escolha o método de pagamento (obrigatório):</h6>
                   </div>
                   <div className="form-group col-xl-12 ml-4">
                     <div className="cvi-custom-radio">
