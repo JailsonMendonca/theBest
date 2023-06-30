@@ -32,9 +32,10 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           <h3>Ola !</h3>
           <AnimationText />
           <p>
-            TheBestOfCV está em busca de talentos no esporte, especificamente na modalidade de futebol. 
-            Se você acredita que tem habilidades excepcionais no futebol e deseja ter a oportunidade 
-            de ser avaliado pela nossa equipe, preencha o formulário abaixo.
+            O The Best Of CV tem como principal objetivo identificar, analisar e avaliar talentos 
+            no futebol em Cabo Verde, visando o desenvolvimento e a internacionalização desses 
+            talentos. Através de um programa de formação e seleção, buscamos proporcionar
+            oportunidades de crescimento e sucesso aos participantes.
           </p>
           <div className="call-to-actions-home">
           <div className="text-left">

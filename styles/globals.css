@@ -44,3 +44,37 @@ span.sc-bdVaJa.bBePZj {
 #cvi-iconRedes i{
   color: #ffb400;
 }
+
+#cvi-cardBanc p{
+ color: black;
+ padding-top: 0;
+ margin: 0 0 2px !important;
+}
+
+#cvi-cardBanc p a{
+  font-weight: bold;
+}
+
+#cvi-cardBanc a{
+  font-weight: bold;
+  color: black;
+}
+
+
+.cvi-custom-radio input[type="radio"] {
+ 
+  width: 20px;
+  height: 20px;
+}
+
+.cvi-custom-radio input[type="radio"]:checked {
+  background-color: green;
+}
+
+.cvi-custom-radio label {
+  font-weight: normal;
+  margin-left: 4px;
+  margin-top: 4px;
+  color: white;
+}
+

@@ -6,7 +6,7 @@ const AnimationText = () => {
       <MovingComponent
         type="typewriter"
         dataText={[
-          "The Best Of CV",
+          "The Best Of CV ?",
         ]}
       />
     </h1>
